@@ -1,0 +1,112 @@
+@media (max-width:768px) {
+  /* Defalut CSS  */
+   header {
+    display: none;
+   }
+   body {
+    font-size: 16px;
+   }
+   section {
+    padding: 50px 15px;
+   }
+   .inner {
+    width: 100%;
+   }
+   /* home  */
+   #home {}
+   .home-content{
+    display: block;
+    height: 60vh;
+    text-align: center;
+   }
+   .home-content .txt_home {
+  }
+   .home-content .txt_home p{
+    /* margin-top: 80px; */
+    font-size: 36px;
+    line-height: 1.2em;
+   }
+   .home-content .txt_home .txt_button {
+     margin-top: 20px;
+   }
+   .home-content .txt_home .txt_button .pbtn:last-child{
+    margin-right: 0px;
+    }
+   .home-content .txt_img {
+   }
+   .home-content .txt_img img{
+    width: 380px;
+   }
+   /* plan  */
+   #plan {
+    padding: 60px 10px;
+   }
+   .circles_plan{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+   }
+   .circle_plan{
+    width: 190px;
+    height: 190px;
+   }
+   .circle_plan h2 {
+    font-size: 20px;
+   }
+   .circle_plan p{
+    margin-top: 8px;
+   }
+   /* design  */
+   #design {}
+   .tinfo_design {
+    flex-direction: column;
+    margin-top: 40px;
+   }
+   .tinfo_design > div {
+    gap: 20px;
+    flex: 1;
+  }
+  .typo-content {
+    margin-top: 16px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
+  .color-content {
+    margin-bottom: 40px;
+  }
+  .color-content .color {
+    width: 100%;
+  }
+  .color-content .color .name_color {
+    font-size: 16px;
+  }
+  .guide-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .txt_guide {
+    flex-flow: row wrap;
+  }
+  .pc_guide img{
+    width: 100%;
+  }
+  .mobile_guide img{
+    width: 100%;
+  }
+  .wireframe_design img {
+    width: 100%;
+  }
+  #succes {
+    padding: 0;
+  }
+  #succes img {
+    padding: 0 16px;
+    width: 100%;
+  }
+  #succes .page_mockup {
+    margin-top: 40px;
+  }
+  #succes .page_mockup img {
+    padding: 0;
+  }
+}
